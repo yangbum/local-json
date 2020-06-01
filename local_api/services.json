@@ -1,41 +1,41 @@
 [
     {
-        "title" : "Extracting a tooth",
+        "title" : "Extracting",
         "price" : "450",
         "image" : "https://5.imimg.com/data5/HW/LV/GLADMIN-64488434/tooth-extraction-treatment-service-500x500.png"
     },
     {
-        "title" : "Filling a tooth",
+        "title" : "Filling",
         "price" : "250",
         "image" : "https://www.wellingtonpointdental.net.au/wpdadmn/wp-content/uploads/2019/08/dental_fillings.jpg"
     },
     {
-        "title" : "Tooth vaneers",
+        "title" : "Vaneers",
         "price" : "1000",
         "image" : "https://cdn11.bigcommerce.com/s-ppav407dk7/images/stencil/1280x1280/products/127/459/porcelain-veneers-by-dentist-in-ann-arbor-and-ypsilanti-ypsi-washtenaw-michigan-at-dental-house__60952.1560115999.jpg?c=2"
     },
     {
-        "title" : "Tooth Dentures",
+        "title" : "Dentures",
         "price" : "2500",
         "image" : "https://www.apollofamilydental.com.au/wp-content/uploads/2017/10/dentures-300x276-1-300x276.jpg"
     },
     {
-        "title" : "Tooth Crowns",
+        "title" : "Crowns",
         "price" : "1500",
         "image" : "https://www.news-medical.net/image.axd?picture=2017%2F7%2Fshutterstock_25133584.jpg"
     },
     {
-        "title" : "Tooth Fixed Bridges",
+        "title" : "Fixed Bridges",
         "price" : "1200",
         "image" : "https://fansmiledental.com/wp-content/uploads/2020/01/services-bridge-1.jpg"
     },
     {
-        "title" : "Tooth Braces",
+        "title" : "Braces",
         "price" : "1700",
         "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOQMKj0iBh_vyqtiGsE-t33kKM2HWix78pjmUbRx9z1REZO0NM&usqp=CAU"
     },
     {
-        "title" : "Root Canal Treatment",
+        "title" : "Root Canal",
         "price" : "2700",
         "image" : "https://www.westcobbdentistry.com/wp-content/uploads/2019/11/1568035252429Root-Canal-Treatment.jpg"
     }

@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:apijson/pages/detail.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -31,19 +32,42 @@ class _HomePageState extends State<HomePage> {
                         crossAxisCount: 2),
                     itemBuilder: (context, index) {
                       return Card(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: <Widget>[
-                              Container(
-                                height: 100,
-                                width: MediaQuery.of(context).size.width,
-                                child: Image.network(myData[index]['image'],fit: BoxFit.cover,),
+                        child: ListTile(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => ServiceDetails(
+                                        service: myData[index])));
+                          },
+                          title: Hero(
+                            tag: 89,
+                            child: Container(
+                              height: 100,
+                              width: MediaQuery.of(context).size.width,
+                              child: Image.network(
+                                myData[index]['image'],
+                                fit: BoxFit.cover,
                               ),
-                              Divider(thickness: 2.0,color: Colors.cyan,),
-                              Text(myData[index]['title'],textScaleFactor: 1.25,),
-                              Text('Rs. ' + myData[index]['price'].toString(),textScaleFactor: 1.25,),
+                            ),
+                          ),
+                          subtitle: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Divider(
+                                thickness: 2.0,
+                                color: Colors.cyan,
+                              ),
+                              Text(
+                                myData[index]['title'],
+                                textScaleFactor: 1.25,
+                              ),
+                              Text(
+                                'Rs. ' + myData[index]['price'].toString(),
+                                textScaleFactor: 1.25,
+                              ),
                             ],
-                          
+                          ),
                         ),
                       );
                     },
