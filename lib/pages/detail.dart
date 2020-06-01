@@ -18,10 +18,7 @@ class _ServiceDetailsState extends State<ServiceDetails> {
         child: Column(
           children: <Widget>[
             //image
-            Hero(
-              tag: 89,
-              child: Image.network(widget.service['image']),
-            ),
+             Image.network(widget.service['image']),
             // // name
             Text(widget.service['title']),
             // // price

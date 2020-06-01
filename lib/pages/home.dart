@@ -37,12 +37,10 @@ class _HomePageState extends State<HomePage> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (_) => ServiceDetails(
+                                    builder: (context) => ServiceDetails(
                                         service: myData[index])));
                           },
-                          title: Hero(
-                            tag: 89,
-                            child: Container(
+                          title: Container(
                               height: 100,
                               width: MediaQuery.of(context).size.width,
                               child: Image.network(
@@ -50,7 +48,6 @@ class _HomePageState extends State<HomePage> {
                                 fit: BoxFit.cover,
                               ),
                             ),
-                          ),
                           subtitle: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
